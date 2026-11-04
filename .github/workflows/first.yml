@@ -1,4 +1,4 @@
-name: MyAction
+name: MyAction2
 on: push
 jobs:
   MyBuild:
