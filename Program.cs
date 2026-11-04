@@ -1,1 +1,12 @@
-﻿Console.WriteLine("Hello, World!");
+using System;
+
+namespace MyConProj
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine($"Текущая дата и время: {DateTime.Now}");
+        }
+    }
+}

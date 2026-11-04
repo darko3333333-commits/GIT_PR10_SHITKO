@@ -1,0 +1,6 @@
+name: MyAction
+on: push
+jobs:
+  MyBuild:
+    runs-on: windows-latest
+    run: dotnet run
