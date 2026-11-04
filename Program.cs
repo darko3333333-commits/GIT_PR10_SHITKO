@@ -7,6 +7,7 @@ namespace MyConProj
         static void Main(string[] args)
         {
             Console.WriteLine($"Текущая дата и время: {DateTime.Now}");
+	    Console.WriteLine("ИС-24А Шитько Федор Алексеевич")
         }
     }
 }
