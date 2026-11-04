@@ -3,4 +3,6 @@ on: push
 jobs:
   MyBuild:
     runs-on: windows-latest
-    run: dotnet run
+    steps:
+      - name: step1
+        run: dotnet run
